@@ -1,1 +1,1 @@
-<?php redirectTo("../public/"?>
+<?php header("Location:../public/"); ?>

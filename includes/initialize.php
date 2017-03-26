@@ -3,7 +3,7 @@
 //directory_separator is a PHP pre defined constant 
 //(/ for windows & \ for mac)
 defined("DS") ? null : define('DS', DIRECTORY_SEPARATOR);
-defined("SITE_ROOT") ? null : define('SITE_ROOT', DS.'xampp'.DS.'htdocs'.DS.'tuhin');
+defined("SITE_ROOT") ? null : define('SITE_ROOT', DS.'xampp'.DS.'htdocs'.DS.'OnlineAddmissionSystem');
 defined("LIB_PATH") ? null : define('LIB_PATH', SITE_ROOT.DS.'includes');
 
 require_once(LIB_PATH.DS."constant.php");
